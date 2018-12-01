@@ -1,0 +1,1 @@
+id	country	countARG	Argentina	1AUT	Austria	1CAN	Canada	6CHL	Chile	5FRA	France	224DEU	Germany	10ISR	Israel	3ITA	Italy	21ZAF	South Africa	1USA	United States	154

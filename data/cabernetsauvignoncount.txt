@@ -1,0 +1,1 @@
+id	country	countARG	Argentina	249AUS	Australia	109AUT	Austria	3BGR	Bulgaria	7CAN	Canada	5CHL	Chile	298FRA	France	21GRC	Greece	2ISR	Israel	37ITA	Italy	48MEX	Mexico	1MDA	Moldova	3PRT	Portugal	4ROU	Romania	4SVN	Slovenia	1ZAF	South Africa	40ESP	Spain	18UKR	Ukraine	1USA	United States	2901

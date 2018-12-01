@@ -1,0 +1,1 @@
+id	country	countAUS	Australia	67AUT	Austria	213BGR	Bulgaria	1CAN	Canada	30CHL	Chile	12CZE	Czech Republic	1FRA	France	341DEU	Germany	596ITA	Italy	11NZL	New Zealand	18PRT	Portugal	1ROU	Romania	1SRB	Serbia	2SVN	Slovenia	2ZAF	South Africa	4USA	United States	706

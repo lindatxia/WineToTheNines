@@ -1,0 +1,1 @@
+id	country	countARG	Argentina	11AUS	Australia	11DEU	Germany	2ITA	Italy	226MDA	Moldova	2ROU	Romania	2SVN	Slovenia	1USA	United States	122

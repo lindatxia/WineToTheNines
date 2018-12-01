@@ -1,0 +1,320 @@
+body { 
+    background-color: #FEFAF1;
+}
+
+.heading { 
+    font-family: 'Fugaz One', cursive;
+    font-size: 45px;
+    color: #483d3e;
+}
+
+.small-heading { 
+    font-family: 'Fugaz One', cursive;
+    font-size: 35px;
+    color: #483d3e;
+}
+
+.large-subtitle { 
+/*    font-family: 'PT Mono', sans-serif;*/
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+    color: #483d3e;
+}
+
+.subtitle { 
+    font-family: 'PT Mono', sans-serif;
+    font-size: 18px;
+    color: #483d3e;
+}
+
+#button { 
+    font-family: 'Fugaz One', cursive;
+    color: #483d3e;
+    border: 1px solid #483d3e;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#button:focus { 
+    outline: 0;
+}
+
+#button:hover { 
+    border: 1px solid #FFA500;
+    color: #FFA500;
+}
+
+span#highlight { 
+    background-color: #f3ebe1;
+}
+
+.step-link { 
+    font-family: 'PT Mono', sans-serif;
+    font-size: 15px;
+    color: #483d3e;
+}
+
+a.activated {
+    color: #FFA500;
+    text-decoration: underline;
+/*    background-color: #f3ebe1;*/
+    border: 1px solid #FFA500;
+}
+
+a.step-link:hover {
+    color: #483d3e;
+    text-decoration: underline;
+/*    background-color: #f3ebe1;*/
+    border: 1px solid #FFA500;
+}
+
+/* By default, all annotation-steps are hidden. */
+.annotation-step {
+  position: absolute;
+  display: none;
+}
+
+/* Finally we can position each annotation exactly how
+ * we want. */
+.annotation {
+  position: absolute;
+}
+
+.heading-text { 
+    font-family: 'PT Mono', sans-serif;
+    font-size: 15px;
+    color: #483d3e;
+    text-align: left;
+}
+
+#intro { 
+    background-color: #f3ebe1;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span { 
+    background: #483d3e !important;
+}
+
+#wine-rec { 
+    border: 1px solid #483d3e;
+    font-family: 'PT Mono', sans-serif;
+    font-size: 15px;
+    color: #483d3e;
+    padding: 15px;
+}
+
+svg {
+    left:0;
+    right:0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #483d3e;
+    box-sizing: border-box;
+    display:block;
+/*    position:relative;*/
+}
+
+/* Display block allows the svg to fill up to this div element */ 
+#vis-canvas { 
+    display: block;
+}
+
+/* Five column Bootstrap layout CSS: 
+Code modified from: https://www.cattlegrid.info/2018/06/21/5-column-layout-with-bootstrap-4.html 
+*/ 
+
+.col-2dot4,
+.col-sm-2dot4,
+.col-md-2dot4,
+.col-lg-2dot4,
+.col-xl-2dot4, 
+.col-sm-4dot8, 
+.col-xs-4dot8, 
+.col-sm-6dot8,
+.col-xs-6dot8 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-2dot4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.col-4dot8 { 
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+
+.col-6dot8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 60%;
+    flex: 0 0 60%;
+    max-width: 60%;
+
+}
+
+@media (min-width: 540px) {
+    
+    .col-sm-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .col-sm-4dot8 { 
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .col-sm-6dot8 { 
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+}
+@media (min-width: 720px) {
+    .col-md-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .col-md-4dot8 { 
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+        margin-left: 20px;
+    }
+    .col-md-6dot8 { 
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+}
+@media (min-width: 960px) {
+    .col-lg-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .col-lg-4dot8 { 
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .col-lg-6dot8 { 
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+}
+@media (min-width: 1140px) {
+    .col-xl-2dot4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .col-xl-4dot8 { 
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .col-xl-6dot8 { 
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+}
+
+
+
+.names {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+}
+
+
+
+
+/* Tooltip CSS */
+.d3-tip {
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'PT Mono', sans-serif;
+    padding: 6px;
+    background: #f3ebe1;
+    color: #FFA500;
+    border-radius: 1px;
+    pointer-events: none;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 8px;
+    width: 100%;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    pointer-events: none;
+}
+
+/* Northward tooltips */
+.d3-tip.n:after {
+    content: "\25BC";
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+    text-align: center;
+}
+
+/* Eastward tooltips */
+.d3-tip.e:after {
+    content: "\25C0";
+    margin: -4px 0 0 0;
+    top: 50%;
+    left: -8px;
+}
+
+/* Southward tooltips */
+.d3-tip.s:after {
+    content: "\25B2";
+    margin: 0 0 1px 0;
+    top: -8px;
+    left: 0;
+    text-align: center;
+}
+
+/* Westward tooltips */
+.d3-tip.w:after {
+    content: "\25B6";
+    margin: -4px 0 0 -1px;
+    top: 50%;
+    left: 100%;
+}
+
+.details { 
+    color: #483d3e;
+}
