@@ -168,17 +168,17 @@ $(document).ready(function() {
 /* By default, load all of the counts. This code is only called once as an initialization function when the document loads, to increase the loading response time and reduce redundancy. */ 
 function loadAllWineCounts() { 
     queue()
-        .defer(d3.json, "/data/world_countries.json")
-        .defer(d3.tsv, "/data/allcount.txt")
-        .defer(d3.tsv, "/data/cabernetsauvignoncount.txt")
-        .defer(d3.tsv, "/data/chardonnaycount.txt")
-        .defer(d3.tsv, "/data/pinotnoircount.txt")
-        .defer(d3.tsv, "/data/pinotgrigiocount.txt")
-        .defer(d3.tsv, "/data/rieslingcount.txt")
-        .defer(d3.tsv, "/data/sauvignonblanccount.txt")
-        .defer(d3.tsv, "/data/syrahcount.txt")
-        .defer(d3.tsv, "/data/merlotcount.txt")
-        .defer(d3.tsv, "/data/gewurztraminercount.txt")
+        .defer(d3.json, "data/world_countries.json")
+        .defer(d3.tsv, "data/allcount.txt")
+        .defer(d3.tsv, "data/cabernetsauvignoncount.txt")
+        .defer(d3.tsv, "data/chardonnaycount.txt")
+        .defer(d3.tsv, "data/pinotnoircount.txt")
+        .defer(d3.tsv, "data/pinotgrigiocount.txt")
+        .defer(d3.tsv, "data/rieslingcount.txt")
+        .defer(d3.tsv, "data/sauvignonblanccount.txt")
+        .defer(d3.tsv, "data/syrahcount.txt")
+        .defer(d3.tsv, "data/merlotcount.txt")
+        .defer(d3.tsv, "data/gewurztraminercount.txt")
         .await(ready);
 }
 
