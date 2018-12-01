@@ -84,7 +84,7 @@ $(document).ready(function() {
     // Uses JQuery ajax method that reads in a CSV file, and after success, parses it using a Javascript library called Papa. 
     $.ajax({
         type: "GET", 
-        url: "/data/allwine.csv", 
+        url: "data/allwine.csv", 
         dataType: "text", 
         success: function(data) {
             allData = Papa.parse(data);
