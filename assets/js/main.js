@@ -1,4 +1,4 @@
-var myKey = {{ key }};
+var myKey = {{ page.key }};
 
 $(document).ready(function() {
     $('#fullpage').fullpage({
