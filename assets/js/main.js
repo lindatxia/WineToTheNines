@@ -1,4 +1,4 @@
-var myKey = config.LICENSE_KEY;
+var myKey = {{ key }};
 
 $(document).ready(function() {
     $('#fullpage').fullpage({
